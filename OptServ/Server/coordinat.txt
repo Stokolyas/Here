@@ -1,0 +1,11 @@
+47.218834, 38.923742
+47.208258, 38.937315
+47.207784, 38.935824
+47.203797, 38.944085
+47.205138,38.945984
+
+{% for bunker in bunkers %}
+
+  waypoint3: '{{ bunker.coordinat1 }}.{{ bunker.coordinat1D }},{{ bunker.coordinat2 }}.{{ bunker.coordinat2D }}'
+
+{% endfor %}

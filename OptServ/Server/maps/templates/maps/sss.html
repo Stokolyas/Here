@@ -1,0 +1,13 @@
+<html>
+    <p>Hi there!</p>
+    <h1>{{ bunkers }}</h1>
+    <ul>
+      {% for bunker in bunkers %}
+
+    <li>{{ bunker.coordinat1 }}.{{ bunker.coordinat1D }}  {{ bunker.coordinat2 }}.{{ bunker.coordinat2D }} {{bunker.id}} </li>
+
+      {% endfor %}
+</ul>
+
+    <p>It works!</p>
+</html>
